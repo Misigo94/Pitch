@@ -36,9 +36,9 @@ def new_pitch():
         title = form.get("pitchtitle")
         category = form.get("pitchcategory")
         description = form.get("pitchdescription")
-        post = Post(title=title, category=category, description = description, author= current_user)
+        post = Post(title=title, category=category, description = description, author_id= current_user)
         db.session.add(post)
-        # db.session.commit()
+        db.session.commit()
         return redirect(url_for('main.index'))
     return render_template('index.html')
 
