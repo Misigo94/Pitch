@@ -1,5 +1,5 @@
 # Pitchperfect
-- This is a web app where one can pitch their ideas in less than one minute anad see reviews on them and receive feeback.
+- This is a web app where one can pitch their best pitches in less than one minute and receive feeback in form of comments.
 
 ## By Martin Misigo
 
